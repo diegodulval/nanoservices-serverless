@@ -1,6 +1,7 @@
 service: http-handler
 plugins:
   - serverless-apigw-binary
+  - serverless-offline
 
 custom:
   apigwBinary:

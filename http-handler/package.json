@@ -10,7 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "aws-sdk": "^2.719.0",
-    "serverless-apigw-binary": "^0.4.4"
+    "serverless": "^1.76.1",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-offline": "^6.5.0"
   },
   "dependencies": {
     "uuid": "^8.2.0"
