@@ -17,8 +17,8 @@ const put = (item) => {
           bucket: item.bucket,
         },
       },
-      (err) => {
-        if ((err, data)) {
+      (err, data) => {
+        if (err) {
           console.log(":..... Error on put file to DynamoDB ......:");
           return rej(err);
         }
