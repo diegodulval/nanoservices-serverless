@@ -1,0 +1,31 @@
+{
+  "Records": [
+    {
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "eventsubscriptionarn",
+      "EventSource": "aws:sns",
+      "Sns": {
+        "SignatureVersion": "1",
+        "Timestamp": "1970-01-01T00:00:00.000Z",
+        "Signature": "EXAMPLE",
+        "SigningCertUrl": "EXAMPLE",
+        "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
+        "Message": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"us-east-1\",\"eventTime\":\"2020-07-24T21:47:05.227Z\",\"eventName\":\"ObjectCreated:Put\",\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"put-object-notification\",\"bucket\":{\"name\":\"dd-nanoservices-images\",\"ownerIdentity\":{\"principalId\":\"A34XQZHX7DEG6X\"},\"arn\":\"arn:aws:s3:::dd-nanoservices-images\"},\"object\":{\"key\":\"67673404_425077465022830_847250453536428362_n.jpg\",\"size\":88086,\"eTag\":\"f0d508cda0515a5d9808cd6db88cbea1\",\"sequencer\":\"005F1B56DC3CECB40C\"}}}]}",
+        "MessageAttributes": {
+          "Test": {
+            "Type": "String",
+            "Value": "TestString"
+          },
+          "TestBinary": {
+            "Type": "Binary",
+            "Value": "TestBinary"
+          }
+        },
+        "Type": "Notification",
+        "UnsubscribeUrl": "EXAMPLE",
+        "TopicArn": "topicarn",
+        "Subject": "TestInvoke"
+      }
+    }
+  ]
+}

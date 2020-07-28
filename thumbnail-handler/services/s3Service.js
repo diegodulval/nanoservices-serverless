@@ -32,7 +32,10 @@ const putObject = (buffer, filename) => {
       },
       (err, data) => {
         if (err) return rej(err);
-        return res(data);
+        return res({
+          bucket: BUCKET,
+          key: filename,
+        });
       }
     );
   });
